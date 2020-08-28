@@ -3,10 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+    <title>Jun's portfolio</title>
+    <link rel="icon" href="./imgs/apple.ico">
+    <meta
+        name="descriptoin"
+        content="portfolio for world-renowend software engineer Jun"
+        />
+    <meta name="author" content="Jun">
+    <script
+        src="https://kit.fontawesome.com/91c9a0ec4e.js"
+        crossorigin="anonymous">
+    </script>
+
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
+        rel="stylesheet"
+    >
 </head>
 <body>
-    테스트
+    <!--Navbar-->
+    <nav id="navbar"></nav>
+    <div class="navbar__logo">
+        <i class="fab fa-apple"></i> 
+        <a href="#">Jun</a>
+    </div>
+    <div class="navbar__menu">
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item">Home</li>
+            <li class="navbar__menu__item">About</li>
+            <li class="navbar__menu__item">Skills</li>
+            <li class="navbar__menu__item">My Portfolio</li>
+            <li class="navbar__menu__item">Testimonial</li>
+            <li class="navbar__menu__item">Contact</li>
+        </ul>  
+        
+        
+        <!--Home-->
+        <section id="home">
+            <img src="imgs/profile.jpg"
+            alt="Jun's profile poto"
+            class="home__avatar"    
+            >
+            <h1 class="home__title">안녕하세요,<br>꿈꾸는 퍼블리셔 김준혁입니다.</h1>
+            <h2 class="home__decripotion"></h2>
+            <button class="home__contact">Contact Me</button>
+        </section>
+    </div>
 
-</body>
+    
+    <!--About-->
+    <section id="about"></section>
+        <h1>About me</h1>
+        <p>웹페이지 관리자모드를 보고 흥미가 생겨 공부를 시작하게 되었습니다. <br>
+            공부를 하면 할수록 매력이 있다는 것을 알게 되었습니다.<br>
+            Html Css JavaScript jQuarry를 주로 공부하고 있지만,<br>
+            실전 업무를 통해 많은 경험을 하고 싶습니다.<br>
+        </p>
+        <div class="about__majors">
+            <div class="major">
+               <div class="major__icon"> 
+               <i class="fab fa-html5"></i>
+            </div>   
+               <div class="major__title">Publishing</div>
+               <p lass="major__description">
+                    Html Css JS 실전 업무로 가능
+
+               </p>
+            </div>
+        </div>
+        <div class="about__majors">
+            <div class="major">
+               <div class="major__icon"> 
+               <i class="fas fa-check-square"></i>
+            </div>   
+               <div class="major__title">Perfect</div>
+               <p lass="major__description">
+                    완벽한 퍼블리싱과 재치있는 입담으로 근무환경 웃음꽃 !  
+
+               </p>
+            </div>
+        </div>
+        <div class="about__majors">
+            <div class="major">
+               <div class="major__icon"> 
+               <i class="fas fa-tools"></i>
+            </div>   
+               <div class="major__title">Front-and</div>
+               <p lass="major__description">
+                    더 나아가 Front-and 영역까지 배우고자 하는 열정이 준비 되어있습니다 !
+
+               </p>
+            </div>
+        </div>
+        <div class="about__jobs">
+            <div class="job">
+                <img 
+                src="imgs/jobs/job.jpg"
+                alt="권성생"
+                class="job__logo"
+                >
+                <p class="job__period">
+
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+    <!--Skills-->
+    <section id="skills"></section>
+        <hi>Skills</hi>
+        <h2>Skilss & Attributes</h2>
+        <p>
+
+        </p>
+        <div class="Skillset"></div>
+        <div class="Skillset__left">
+            <h3 class="Skillset__title">Skills</h3>
+            <div class="skill">
+                <div class="skill_description">
+                    <span>HTML</span>  
+                    <span>40%</span>
+                </div>
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Css</span>  
+                        <span>20%</span>
+                    </div>
+                <div class="skill__bar">
+                    <div class="skill__value"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill_description">
+                    <span>JS</span>  
+                    <span>0%</span>
+                </div>
+        </div>
+        <div class="skill">
+            <div class="skill_description">
+                <span>fervor</span>  
+                <span>100%</span>
+            </div>
+        <div class="Skillset__right">
+            <div class="tools">
+                <h3 class="skillset__title">Tools</h3>
+                <ul class="tools__list">
+                    <li><span>Visual Studio Code</span></li>
+                </ul>
+            </div>
+            <div class="etc">
+                <h3 class="skillset__title">Etc</h3>
+                <div class="etc">
+                    <ul class="etc__list">
+                        <li><span>Git</span></li>
+                        <li><span>Biwling</span></li>
+                        <li><span>patience</span></li>
+            </div>
+            </div>
+        </div>
+
+
+    <!--Work-->
+    <section id="work">
+        <h1>My Portfolio</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <style>
+                .btn_a {
+                    padding: 10px 25px;
+                    color: #000;
+                    text-decoration: none;
+                    font-size: 0.8rem;
+                    border: 2px solid #555;
+                    border-radius: 5px;
+                    background: #fff;
+                }
+                .btn_a:hover {
+                    color: #fff;
+                    background: #555;
+                }
+            </style>
+            <a class="btn_a" href="https://www.naver.com">네이버 바로가기</a>
+         
+            <button class="category__btn">
+                Publishing<span class="category__count">3</span>
+            </button>
+            <button class="category__btn">
+                Study<span calss="category__count">1</span>
+            </button>
+        </div>
+
+        <div class="work__projects">
+            <a 
+              href=""
+              class="project"
+              target="blank"
+            >
+            </a>
+        </div>
+    </section>
+    <!--Testmonials-->
+    <section id="testmonials"></section>
+    <!--Contact-->
+    <section id="contact"></section>
+
+    </body>
 </html>
