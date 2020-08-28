@@ -12,12 +12,13 @@
   --color-pink: #fe918d;
   --color-dark-pink: #ff6863;
   --color-dark-grey: #4d4d4d;
-  --color-grey: #616161;
+  --color-grey: #292b2e;
   --color-light-grey: #7c7979;
   --color-blue: #73aace;
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+ 
 
   /* Font size */  
   --font-large: 48px;
@@ -88,7 +89,7 @@ p {
 #navbar {
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-dark-grey);
+    background-color: var(--color-grey);
     align-items: center;
     color: var(--color-white);
     padding: 16px;
@@ -116,4 +117,24 @@ p {
 .navbar__menu__item:hover{
     background-color: var(--color-black);
     border-radius: 4px;
+}
+
+/*Home*/
+#home {
+    background: url('') center/cover no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+.home__avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--color-light-white);
+
+}
+
+.home__title,
+.home__discription{
+    color: var(--color-gold);
 }
