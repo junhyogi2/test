@@ -1,0 +1,5 @@
+display 요소  // inline, inline-block, block
+
+position 요소 // static, relative, absolute, fixed
+
+float 요소 // left, right

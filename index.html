@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jun's portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="icon" href="./imgs/apple.ico">
     <meta
         name="descriptoin"
@@ -56,49 +57,50 @@
 
     
     <!--About-->
-    <section id="about"></section>
-        <h1>About me</h1>
-        <p>웹페이지 관리자모드를 보고 흥미가 생겨 공부를 시작하게 되었습니다. <br>
-            공부를 하면 할수록 매력이 있다는 것을 알게 되었습니다.<br>
-            Html Css JavaScript jQuarry를 주로 공부하고 있지만,<br>
-            실전 업무를 통해 많은 경험을 하고 싶습니다.<br>
-        </p>
-        <div class="about__majors">
-            <div class="major">
-               <div class="major__icon"> 
-               <i class="fab fa-html5"></i>
-            </div>   
-               <div class="major__title">Publishing</div>
-               <p lass="major__description">
+    <section id="about" class="section">
+
+        <div class="title_box">
+            <h1>About me</h1>
+            <p>웹페이지 관리자모드를 보고 흥미가 생겨 공부를 시작하게 되었습니다. <br>
+                공부를 하면 할수록 매력이 있다는 것을 알게 되었습니다.<br>
+                Html Css JavaScript jQuarry를 주로 공부하고 있지만,<br>
+                실전 업무를 통해 많은 경험을 하고 싶습니다.<br>
+            </p>
+        </div>
+
+        <div class="content_box">
+            <div class="box" onclick="window.location.href = 'https://www.naver.com'" target="_blank">
+                <i class="fab fa-html5 fa-4x "></i>
+
+                <h3>Publishing</h3>
+
+                <p>
                     Html Css JS 실전 업무로 가능
+                </p>
+            </div>
 
-               </p>
+            <div class="box">
+                <i class="fas fa-check-square fa-4x"></i>
+
+                <h3>Perfect</h3>
+
+                <p>
+                    완벽한 퍼블리싱과 재치있는 입담으로 근무환경 웃음꽃 !
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools fa-4x"></i>
+
+                <h3>Front-and</h3>
+
+                <p>
+                    더 나아가 Front-and 영역까지 배우고자 하는 열정이 <br> 준비 되어있습니다 !
+                </p>
             </div>
         </div>
-        <div class="about__majors">
-            <div class="major">
-               <div class="major__icon"> 
-               <i class="fas fa-check-square"></i>
-            </div>   
-               <div class="major__title">Perfect</div>
-               <p lass="major__description">
-                    완벽한 퍼블리싱과 재치있는 입담으로 근무환경 웃음꽃 !  
 
-               </p>
-            </div>
-        </div>
-        <div class="about__majors">
-            <div class="major">
-               <div class="major__icon"> 
-               <i class="fas fa-tools"></i>
-            </div>   
-               <div class="major__title">Front-and</div>
-               <p lass="major__description">
-                    더 나아가 Front-and 영역까지 배우고자 하는 열정이 준비 되어있습니다 !
 
-               </p>
-            </div>
-        </div>
         <div class="about__jobs">
             <div class="job">
                 <img 
@@ -114,10 +116,10 @@
             </div>
 
         </div>
-
+    </section>
 
     <!--Skills-->
-    <section id="skills"></section>
+    <section id="skills" class="section">
         <hi>Skills</hi>
         <h2>Skilss & Attributes</h2>
         <p>
@@ -169,10 +171,10 @@
             </div>
             </div>
         </div>
-
+    </section>
 
     <!--Work-->
-    <section id="work">
+    <section id="work" class="section">
         <h1>My Portfolio</h1>
         <h3>Projects</h3>
         <div class="work__categories">
@@ -241,7 +243,7 @@
         </div>
     </section>
     <!--Contact-->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__title"> Let's talk </h1>
         <h2 class="contact__email">junhy_ogi@naver.com</h2>
         <div class="contact__links">

@@ -40,7 +40,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
     cursor: default;
 }
@@ -157,4 +157,66 @@ p {
     padding: 8px 12px;
     border: 2px solid var(--color-white);
     border-radius: var(--weight-semi-bold);
+}
+
+/* Section common */
+.section{
+    padding: 50px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* About */
+.about__majors {
+    display: flex;
+  
+}
+
+.title_box {
+    margin-bottom: 50px;
+}
+
+.content_box {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    vertical-align: top;
+    border: 1px solid #f5f5f5;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: inset  rgba(0, 0, 0, 0.2) 0 3px 12px;
+}
+
+.box:nth-child(1) i {
+    color: orangered;
+}
+
+.box:nth-child(2) i {
+    color: deepskyblue;
+}
+
+.box:nth-child(3) i {
+    color: orange;
+}
+
+.box h3 {
+    font-weight: bold;
+    height: 30%;
+}
+
+.box p {
+    height: 30%;
 }
