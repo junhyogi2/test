@@ -28,7 +28,7 @@
 
         <div class="navbar__menu">
             <ul class="navbar__menu">
-                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item active">Home</li>
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skills</li>
                 <li class="navbar__menu__item">My work</li>
@@ -50,7 +50,7 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section section__container">
         <h1>About me</h1>
         <p>웹페이지 관리자모드를 보고 흥미가 생겨 공부를 시작하게 되었습니다. <br>
             공부를 하면 할수록 매력이 있다는 것을 알게 되었습니다.<br>
@@ -61,68 +61,65 @@
         <div class="about__majors">
             <!-- Html -->
             <div class="major">
+              <div class="major1">
                 <div class="major__icon">
-                    <i class="fab fa-html5 fa "></i>
+                    <i class="fab fa-html5 fa"></i>
                 </div> 
                 
-                <div class="major__title">
-                    <h3>Html</h3>
-                </div>
+                <h2 class="major__title"> Html </h2>
                 <div class="major__description">
-                     <p>Html Css JS 실전 업무로 가능</p>
+                     Html Css JS 실전 업무로 가능
                 </div>
+              </div>
             </div>
 
             <!-- Publishing -->
             <div class="major">
+              <div class="major2">  
                 <div class="major__icon">
-                    <i class="fab fa-html5 fa "></i>
+                    <i class="fas fa-check-square fa "></i>
                 </div> 
                 
-                <div class="major__title">
-                    <h3>Publishing</h3>
-                </div>
-
+                <h2 class="major__title">Publishing</h2>
                 <div class="major__description">
-                    <p>Html Css JS 실전 업무로 가능</p>
+                    완벽한 퍼블리싱과 재치있는 입담으로 근무환경 웃음꽃 !
                 </div>
+               </div> 
             </div>
 
             <!-- Front-and -->
             <div class="major">
+
+              <div class="major3"> 
                 <div class="major__icon">
-                    <i class="fab fa-html5 fa "></i>
+                    <i class="fas fa-tools fa "></i>
                 </div> 
                 
-                <div class="major__title">
-                    <h3>Front-and</h3>
-                </div>
+                <h2 class="major__title">Front-and</h2>
 
                 <div class="major__description">
-                    <p>Html Css JS 실전 업무로 가능</p>
+                    더 나아가 Front-and 영역까지 배우고자 하는 열정이 <br> 준비 되어있습니다 !
                 </div>
+              </div>  
             </div>
-        </div>
-        <div class="about__jobs">
-            <img src="imgs/dream.PNG" alt="Dream Coding" class="job__logo" />
-            <p class="job__name">구글링을 통해 알게 된 코딩 강의</p>
-            <p class="jop__period">2020 08 ~ </p>
         </div>
     </section>
 
     <!-- skills -->
-    <section id="skills">
-        <h1>Skills</h1>
-        <h2>Skills & Attributes</h2>
-        <p>
+    <section id="skills" class="section">
+        <div class="section__container">
+        <h1 class="top">Skills</h1>
+        <h2 class="top">Skills & Attributes</h2>
+        <p class="top">
             html css Js언어의 경험이 있고 새로운 것들을 배우는데 관심이 있습니다.<br>
             팀 환경에서 일하거나 혼자서도 일할 수 있습니다<br>
             계획을 세우고, 시간을 잘 지키고, 스트레스가 있어도 충분히 잘 적응해서 할 수 있습니다.<br>
         </p>
         <!-- skills div -->
-        <div class="skillset">
+        <div class="skillset" >
             <div class="skillset__left">
                 <h3 class="skillset_title">Skills</h3>
+            
         <!-- skill Html -->
                 <div class="skill">
                     <div class="skill_description">
@@ -130,7 +127,7 @@
                         <span>60%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value"></div>
+                        <div class="skill__value" style="width: 60%"></div>
                     </div>
                 </div>
         <!-- skill css -->
@@ -140,7 +137,7 @@
                         <span>40%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value"></div>
+                        <div class="skill__value" style="width: 40%"></div>
                     </div>
                 </div>
         <!-- skill JS -->
@@ -150,7 +147,7 @@
                         <span>0%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value"></div>
+                        <div class="skill__value" style="width: 0%"></div>
                     </div>
                 </div>
         <!-- skill fervor -->
@@ -160,7 +157,7 @@
                         <span>100%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value"></div>
+                        <div class="skill__value" style="width: 100%"></div>
                     </div>
                 </div>
             </div>
@@ -182,10 +179,11 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
     
     <!-- work -->
-    <section id="work">
+    <section id="work" class="section">
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
@@ -249,7 +247,7 @@
     </section>
 
     <!-- testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="section">
         <h1>Testimonials</h1>
         <h3>See what they say about me</h3>
      <!-- 순성이미지와 나한테해준말 적기 -->
@@ -269,7 +267,7 @@
     </section>
 
     <!-- contact -->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__title">Let's talk</h1>
         <h2 class="contact__email">Junhy_ogi@naver.com</h2>
         
