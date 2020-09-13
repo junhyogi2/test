@@ -10,8 +10,274 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
         rel="stylesheet"
     >
+    <script
+        src="https://kit.fontawesome.com/91c9a0ec4e.js"
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
+    <!-- Navbar -->
+
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-apple"></i> 
+        <a href="#">Jun</a>
+    </div>
+
+        <div class="navbar__menu">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">Testimonial</li>
+                <li class="navbar__menu__item">Contact</li>
+            </ul>
+        </div>      
+    </nav>      
+    
+    <!-- Home -->
+    <section id="home">
+        <img src="imgs/profile.jpg"
+             alt="Jun's profile photo"
+             class="home__avatar"
+        />
+        <h1 class="home__title">Hello,<br>I'm Publisher</h1> 
+        <button class="home__contact">Contack Me</button>
+
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h1>About me</h1>
+        <p>웹페이지 관리자모드를 보고 흥미가 생겨 공부를 시작하게 되었습니다. <br>
+            공부를 하면 할수록 매력이 있다는 것을 알게 되었습니다.<br>
+            Html Css JavaScript를 주로 공부하고 있지만,<br>
+            실전 업무를 통해 많은 경험을 하고 싶습니다.<br>
+        </p>
+        
+        <div class="about__majors">
+            <!-- Html -->
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5 fa "></i>
+                </div> 
+                
+                <div class="major__title">
+                    <h3>Html</h3>
+                </div>
+                <div class="major__description">
+                     <p>Html Css JS 실전 업무로 가능</p>
+                </div>
+            </div>
+
+            <!-- Publishing -->
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5 fa "></i>
+                </div> 
+                
+                <div class="major__title">
+                    <h3>Publishing</h3>
+                </div>
+
+                <div class="major__description">
+                    <p>Html Css JS 실전 업무로 가능</p>
+                </div>
+            </div>
+
+            <!-- Front-and -->
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5 fa "></i>
+                </div> 
+                
+                <div class="major__title">
+                    <h3>Front-and</h3>
+                </div>
+
+                <div class="major__description">
+                    <p>Html Css JS 실전 업무로 가능</p>
+                </div>
+            </div>
+        </div>
+        <div class="about__jobs">
+            <img src="imgs/dream.PNG" alt="Dream Coding" class="job__logo" />
+            <p class="job__name">구글링을 통해 알게 된 코딩 강의</p>
+            <p class="jop__period">2020 08 ~ </p>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+            html css Js언어의 경험이 있고 새로운 것들을 배우는데 관심이 있습니다.<br>
+            팀 환경에서 일하거나 혼자서도 일할 수 있습니다<br>
+            계획을 세우고, 시간을 잘 지키고, 스트레스가 있어도 충분히 잘 적응해서 할 수 있습니다.<br>
+        </p>
+        <!-- skills div -->
+        <div class="skillset">
+            <div class="skillset__left">
+                <h3 class="skillset_title">Skills</h3>
+        <!-- skill Html -->
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Html</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+        <!-- skill css -->
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Css</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+        <!-- skill JS -->
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>JS</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+        <!-- skill fervor -->
+                <div class="skill">
+                    <div class="skill_description">
+                        <span>Fervor</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skillset__right">
+                <div class="tools">
+                    <h3 class="skillset_title">Tools</h3>
+                    <ul class="tools__list">
+                        <li><span>Visual Studio Code</span></li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset_title">Etc</h3>
+                    <ul class="etc__list">
+                        <li><span>Git</span></li>
+                        <li><span>Bowling</span></li>
+                        <li><span>Patience</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- work -->
+    <section id="work">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn">All
+                <span class="category__count">8</span></button>
+            <button class="category__btn">Front-end
+                <span class="category__count">3</span></button>
+            <button class="category__btn">Back-end
+                <span class="category__count">3</span></button>
+            <button class="category__btn">Mobile
+                <span class="category__count">2</span></button>
+        </div>
+
+        <div class="work__projects">
+            <a href="https://github.com/junhyogi2/test"
+               class="project"
+               target="_blank"
+            >
+               <img class="project__img" src="imgs/gray.png" alt="Gray">
+               <div class="project__description">
+                   <h3>Gray</h3>
+                   <span>색깔</span>
+
+                <img class="project__img" src="imgs/gray.png" alt="Gray">
+                <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>
+
+                <img class="project__img" src="imgs/gray.png" alt="Gray">
+                <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>
+
+                <img class="project__img" src="imgs/gray.png" alt="Gray">
+                <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>   
+
+                 <img class="project__img" src="imgs/gray.png" alt="Gray">
+                 <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>
+
+                 <img class="project__img" src="imgs/gray.png" alt="Gray">
+                 <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>
+
+                 <img class="project__img" src="imgs/gray.png" alt="Gray">
+                 <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>
+
+                 <img class="project__img" src="imgs/gray.png" alt="Gray">
+                 <div class="project__description">
+                     <h3>Gray</h3>
+                     <span>색깔</span>
+               </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+     <!-- 순성이미지와 나한테해준말 적기 -->
+        <div class="tesimonials">
+            <div class="tesimonials">
+                <img
+                    src=""
+                    alt=""
+                    class="tesimonials__avatar"
+                />  
+                <div class="tesimonials__speech-bubble">
+                    <p></p>
+                    <p class="name"><a href=""></a>OOOO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">Junhy_ogi@naver.com</h2>
+        
+        <p class="contact__rights">
+            2020 Jun's Coding - All rights reserved
+        </p>
+    </section>
+
     
 </body>
 </html>
